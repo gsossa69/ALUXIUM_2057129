@@ -1,0 +1,577 @@
+    *{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    }
+    #menus
+    {
+    height: 35px;
+    width: 35px;
+    margin-top: 30px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    }
+    .fon3
+    {
+    width: 1350px;
+    height: 99px;
+    opacity: 78%;
+    background: white;
+    position: absolute;
+    }
+    .contenedor
+    {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    }
+    .btn1
+    {
+    font-family: 'Merriweather', serif;
+    position: absolute;
+    margin: 30px;
+    padding: 10px auto;
+    border-radius: 1500px;
+    margin-left: 1000px;
+    box-sizing: border-box;
+    background: #bb71da;
+    width: 144px;
+    height: 38px;
+    color: white;
+    font-size: 1em;
+    }
+    .btn2
+    {
+    font-family: 'Merriweather', serif;
+    border: 3px solid #bb71da;
+    position: absolute;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 1500px;
+    margin-left: 1160px;
+    background: white;
+    color: #6d228c;
+    width: 144px;
+    height: 38px;
+    }
+    .d-flex 
+    {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    }
+    .logo
+    {
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    position: absolute;
+    margin-left: 600px;
+    box-sizing: border-box;
+    }
+    #fondo1
+    {
+    height: 900px;
+    width: 1350px;
+    overflow: hidden;
+    box-sizing: border-box;
+    }
+    .titulo1
+    {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3em;
+    overflow: hidden;
+    margin-left: 600px;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    color: white;
+    box-sizing: border-box;
+    }
+    .conte{
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    overflow: hidden;
+    margin-left: 600px;
+    font-weight: 400;
+    position: absolute;
+    top: 70%;
+    color: white;
+    box-sizing: border-box;
+    }
+    .conte2{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    overflow: hidden;
+    font-weight: 400;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 10%;
+    box-sizing: border-box;
+    color: white;
+    }
+    .titulo2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3em;
+    overflow: hidden;
+    margin-left: 10px;
+     font-weight: 500;
+    position: absolute;
+    margin-top: 5%;
+    box-sizing: border-box;
+    color: white;
+    }
+    .ampliar{
+    font-family: 'Merriweather', serif;
+    padding: 10px auto;
+    margin-left: 560px;
+    position: absolute;
+    margin-top: 20%;
+    border-radius: 1500px;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    width: 104px;
+    height: 31px;
+    color: #747272;
+    font-size: 1em;
+    }
+    .tamaño1{
+    height: 400px;
+    width:500px;
+    margin-left: 750px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    }
+    .fondo{
+    background: #f88a48;
+    box-sizing: border-box;
+    }
+    .astro{
+    height: 459px;
+    width: 459px;
+    margin-top: 15px;
+    margin-left: 150px;
+    box-sizing: border-box;
+    }
+    .titulo3{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2.5em;
+    overflow: hidden;
+    margin-left: 650px;
+    position: absolute;
+    font-weight: 500;
+    margin-top: 10px;
+    box-sizing: border-box;
+    }
+    .conte3{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    overflow: hidden;
+    margin-left: 650px;
+    position: absolute;
+    font-weight: 400;
+    margin-top: 12%;
+    box-sizing: border-box;
+    }
+    .ampliar2{
+    font-family: 'Merriweather', serif;
+    padding: 10px auto;
+    margin-left: 720px;
+    position: absolute;
+    margin-top: 30%;
+    border-radius: 1500px;
+    background-color: #f88a48;
+    color: black;
+    box-sizing: border-box;
+    width: 104px;
+    height: 31px;
+    color: white;
+    font-size: 1em;
+    }
+    .fundadores{
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    margin: 100px;
+    margin-left: 150px;
+    margin-top: 3%;
+    display: flex;
+    box-sizing: border-box;
+    }
+    .fundadores2{
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    margin: 100px;
+    margin-left: 550px;
+    margin-top: 3%;
+    display: flex;
+    box-sizing: border-box;
+    }
+    .fundadores3{
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    margin: 100px;
+    margin-left: 950px;
+    margin-top: 3%;
+    display: flex;
+    box-sizing: border-box;
+    }
+    .cuadro2{
+    width: 1350px;
+    height: 380px;
+    background: #5FCFD6;
+    margin-top: 50px;
+    box-sizing: border-box;
+    }
+    .titulo4{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3em;
+    overflow: hidden;
+    font-weight: 500;
+    margin-left: 520px;
+    margin-top: 20px;
+    color: #747272;
+    box-sizing: border-box;
+    }
+    .yuli{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    margin: 100px;
+    margin-left: 136px;
+    margin-top: 34%;
+    width: 273px;
+    height: 37px;
+    display: flex;
+    border-radius: 1500px;
+    background: #bbdefd;
+    font-weight: 600;
+    padding: 10px auto;
+    font-size: 1.5em;
+    box-sizing: border-box;
+    color: #747272;
+    }
+    .gian{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    margin: 100px;
+    margin-left: 540px;
+    margin-top: 34%;
+    width: 273px;
+    height: 37px;
+    display: flex;
+    border-radius: 1500px;
+    background: #bbdefd;
+    font-weight: 600;
+    padding: 10px auto;
+    font-size: 1.5em;
+    box-sizing: border-box;
+    color: #747272;
+    }
+    .flor{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    margin: 100px;
+    margin-left: 940px;
+    margin-top: 30.5%;
+    width: 273px;
+    height: 37px;
+    display: flex;
+    border-radius: 1500px;
+    background: #bbdefd;
+    font-weight: 600;
+    padding: 10px auto;
+    font-size: 1.5em;
+    box-sizing: border-box;
+    color: #747272;
+    }
+    .titulo5{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3em;
+    overflow: hidden;
+    position: absolute;
+    font-weight: 500;
+    margin-left: 600px;
+    margin-top: 10%;
+    box-sizing: border-box;
+    color: #747272;
+    }
+    .cuerpo{
+    height: 450px;
+    width: 350px;
+    margin-left: 220px;
+    overflow: hidden;
+    margin-top: 20%;
+    box-sizing: border-box;
+    }
+    .rostro{
+    height: 450px;
+    width: 450px;
+    margin-left: 135px;
+    overflow: hidden;
+    margin-top: 20%;  
+    box-sizing: border-box;
+    }
+   .pro{
+    font-family: 'Merriweather', serif;
+    position: absolute;
+    margin: 100px;
+    margin-left: 200px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 1500px;
+    background: #8daaa6;
+    font-weight: 400;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    width: 309px;
+    height: 41px;
+    font-size: 1em;
+    }
+    .pro2{
+    font-family: 'Merriweather', serif;
+    position: absolute;
+    margin: 100px;
+    margin-left: 800px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 1500px;
+    background: #8daaa6;
+    font-weight: 400;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    width: 309px;
+    height: 41px;
+    font-size: 1em;
+    }
+    .detalle{
+    font-family: 'Lato', sans-serif;
+    height: 450px;
+    width: 450px;
+    margin-left: 123px;
+    overflow: hidden;
+    font-weight: 600;
+    margin-top: 10%;
+    box-sizing: border-box;
+    }
+    .ilustra{
+    font-family: 'Lato', sans-serif;
+    height: 450px;
+    width: 450px;
+    margin-left: 135px;
+    overflow: hidden;
+    font-weight: 600;
+    margin-top: 10%;  
+    box-sizing: border-box;
+    }
+    .paisa{
+    font-family: 'Lato', sans-serif;
+    height: 450px;
+    width: 450px;
+    margin-left: 120px;
+    overflow: hidden;
+    font-weight: 600;
+    margin-top: 10%; 
+    box-sizing: border-box;
+    }
+    .fondo3{
+    height: 900px;
+    width: 1350px;
+    overflow: hidden;
+    margin-top: 10%;
+    box-sizing: border-box;
+    }
+    .blanco{
+    height: 600px;
+    width: 800px;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 300px;
+    margin-top: 20%;
+    background: #bb71da;
+    opacity: 100%;
+    box-sizing: border-box;
+    }
+    .correo{
+    padding: 10px;
+    margin-left: 450px;
+    margin-top: 10%;
+    width: 300px;
+    border-radius: 1500px;
+    box-sizing: border-box;
+    }
+    .contra{
+    padding: 10px;
+    margin-left: 450px;
+    margin-top: 5%;
+    width: 300px;
+    border-radius: 1500px;
+    box-sizing: border-box;
+    }
+    .registro{
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+    padding: 10px;
+    background: orangered;
+    margin-left: 510px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 400;
+    border-radius: 30px;
+    box-sizing: border-box;
+    }
+    .pregunta{
+    font-family: 'Lato', sans-serif;
+    margin-left: 470px;
+    margin-top: 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+    }      
+    .inicio{
+    font-family: 'Lato', sans-serif;
+    margin-left: 610px;
+    margin-top: -20px;
+    display: flex;
+    padding: 5px;
+    border-radius: 1500px;
+    background: orangered;
+    color: white;
+    font-weight: 600;
+    box-sizing: border-box;
+    }
+    .google
+    {
+    height: 50px;
+    width: 50px;
+    margin-left: 500px;
+    margin-top: 40px;
+    display: flex;
+    opacity: 100%;
+    box-sizing: border-box;
+    }
+    .facebook
+    {
+    height: 55px;
+    width: 55px;
+    margin-left: 600px;
+    margin-top: -52px;
+    opacity: 100%;
+    display: flex;
+    box-sizing: border-box;
+    }
+    .entra{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    margin-left: 525px;
+    margin-top: 45px;
+    font-weight: 600;
+    box-sizing: border-box;
+    }
+    .politica{
+    margin-left: 250px;
+    margin-top: 10%;
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+    box-sizing: border-box;
+    }   
+    .titulo6{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3em;
+    overflow: hidden;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 100px;
+    box-sizing: border-box;
+    opacity: 100%;
+    color: white;
+    }
+    .conte4{
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    overflow: hidden;
+    font-weight: 600;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 100px;
+    box-sizing: border-box;
+    color: white;
+    opacity: 100%;
+    }
+    .gris{
+    background: #6d228c;
+    height: 350px;
+    width: 1350px;
+    overflow: hidden;
+    box-sizing: border-box;
+    }
+    .redes{
+    display: flex;
+    align-items: center;
+    margin-left: 570px;
+    margin-top: 2.5%;
+    width: 20px;
+    height: 20px;
+    }
+    .nose{
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+    overflow: hidden;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 500px;
+    color: white;
+    box-sizing: border-box;
+    }
+    .copy
+    {
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+    overflow: hidden;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 570px;
+    color: white;
+    box-sizing: border-box;
+    }
+    .text_center{
+    text-align: center;
+    display: block;
+    }
+    .morado{
+        font-family: 'Merriweather', serif;
+        overflow: hidden;
+        position: absolute;
+        margin-left: 620px;
+        width: 88px;
+        height: 90px;
+        margin-top: 7%;
+    }
+    @media screen and (max-width: 800px){
+    .titulo1
+    {
+        width: 100%;
+    }
+    .conte
+    {
+        width: 100%;
+    }
+    }
+    @media screen and (max-width: 400px){
+    .contenedor{
+        width: 100%;
+    }
+    }
+
