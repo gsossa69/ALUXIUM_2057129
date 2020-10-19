@@ -1,1 +1,2 @@
 -El proyecto sigue sin correcciones en las vistas y en el css.
+-No tiene el diseño guardado en la carpeta design.
